@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "app_name": "caltech-fastai",
+  "app_name": "dogscats-fastai",
   "environment_variables": {
     "S3_BUCKET": "sagemaker-mcclean-eu-west-1",
     "S3_OBJECT": "models/dogscats_fastai/model.tar.gz",

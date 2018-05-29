@@ -14,7 +14,7 @@ TMP_IMG_FILE=os.path.join(TMP_IMG_PATH, os.environ.get('TMP_IMG_FILE', 'image.jp
 LOCAL_MODEL_PATH=os.environ.get('LOCAL_MODEL_PATH', '/tmp/models')
 IMG_SIZE=int(os.environ.get('IMG_SIZE', '224'))
 
-app = Chalice(app_name='dogscats-fastai-chalice')
+app = Chalice(app_name='dogscats-fastai')
 
 predictor = ClassificationService(S3_BUCKET, S3_OBJECT, LOCAL_MODEL_PATH)
 
