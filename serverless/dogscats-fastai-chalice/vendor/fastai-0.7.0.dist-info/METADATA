@@ -1,0 +1,67 @@
+Metadata-Version: 2.0
+Name: fastai
+Version: 0.7.0
+Summary: The fastai deep learning and machine learning library.
+Home-page: https://github.com/fastai/fastai
+Author: Jeremy Howard and contributors
+Author-email: info@fast.ai
+License: Apache License 2.0
+Download-URL: https://github.com/fastai/fastai/archive/0.7.0.tar.gz
+Keywords: deeplearning,pytorch,machinelearning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: bcolz
+Requires-Dist: bleach
+Requires-Dist: certifi
+Requires-Dist: cycler
+Requires-Dist: decorator
+Requires-Dist: entrypoints
+Requires-Dist: feather-format
+Requires-Dist: graphviz
+Requires-Dist: html5lib
+Requires-Dist: ipykernel
+Requires-Dist: ipython
+Requires-Dist: ipython-genutils
+Requires-Dist: ipywidgets
+Requires-Dist: isoweek
+Requires-Dist: jedi
+Requires-Dist: Jinja2
+Requires-Dist: jsonschema
+Requires-Dist: jupyter
+Requires-Dist: MarkupSafe
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pandas-summary
+Requires-Dist: pickleshare
+Requires-Dist: Pillow
+Requires-Dist: plotnine
+Requires-Dist: ptyprocess
+Requires-Dist: Pygments
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: PyYAML
+Requires-Dist: pyzmq
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: simplegeneric
+Requires-Dist: sklearn-pandas
+Requires-Dist: testpath
+Requires-Dist: torch (<0.4)
+Requires-Dist: torchtext
+Requires-Dist: torchvision
+Requires-Dist: tornado
+Requires-Dist: tqdm
+Requires-Dist: traitlets
+Requires-Dist: wcwidth
+Requires-Dist: webencodings
+Requires-Dist: widgetsnbextension
+
+UNKNOWN
+
+
