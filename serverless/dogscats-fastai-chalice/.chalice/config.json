@@ -4,9 +4,11 @@
   "environment_variables": {
     "S3_BUCKET": "sagemaker-mcclean-eu-west-1",
     "S3_OBJECT": "models/dogscats_fastai/model.tar.gz",
-    "TMP_IMG_PATH": "/tmp/images",
     "LOCAL_MODEL_PATH": "/tmp/models"
   },
+  "lambda_timeout": 60,
+  "lambda_memory_size": 3008,
+  "autogen_policy": false,
   "stages": {
     "dev": {
       "api_gateway_stage": "api"

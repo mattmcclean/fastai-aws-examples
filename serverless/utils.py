@@ -1,9 +1,5 @@
-import json, pdb, os, numpy as np, cv2, threading, math 
+import json, pdb, os, numpy as np, cv2, threading, math, io
 
-import torch
-from torch import nn, cuda, backends, FloatTensor, LongTensor, optim
-from torch.autograd import Variable
-import torch.nn.functional as F
 
 def open_image(fn):
     """ Opens an image using OpenCV given the file path.
@@ -293,5 +289,7 @@ def no_crop(im, min_sz=None, interpolation=cv2.INTER_AREA):
 
 def preproc_img(img, sz):
     val_tfm = image_gen(tfm_norm, tfm_denorm, sz, pad=0, crop_type=CropType.NO, tfm_y=None, sz_y=None)
-    trans_img = val_tfm(img)
-    return Variable(torch.FloatTensor(trans_img)).unsqueeze_(0)
+    np_arr = val_tfm(img)
+    with io.BytesIO() as b:
+        np.save(b, np_arr)
+        return b.getvalue()
