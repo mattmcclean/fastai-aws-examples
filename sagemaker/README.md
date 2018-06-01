@@ -1,0 +1,1 @@
+This version of the application is based on the pytorch-serverless project from here: https://github.com/alecrubin/pytorch-serverless

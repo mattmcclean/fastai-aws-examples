@@ -1,0 +1,7 @@
+boto3
+pyyaml
+dill
+numpy>=1.14
+opencv-python-headless
+http://download.pytorch.org/whl/cpu/torch-0.3.1-cp36-cp36m-linux_x86_64.whl
+https://s3-eu-west-1.amazonaws.com/mmcclean-public-files/fastai-lib.zip
