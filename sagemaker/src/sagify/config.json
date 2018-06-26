@@ -1,0 +1,5 @@
+{
+  "image_name": "dogscats-fastai-img-v2",
+  "aws_profile": "default",
+  "aws_region": "eu-west-1"
+}
